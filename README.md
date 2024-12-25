@@ -46,3 +46,26 @@ En s’appuyant sur les **observations historiques des facteurs de capacité** e
    - Développement de modèles prédictifs pour anticiper les variations.
    - Validation à l’aide d’indicateurs statistiques.
 
+
+## Données
+
+1. **Données climatiques (NASA MERRA-2)**  
+   - Issues du site officiel : [https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/](https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/)  
+   - L’accès nécessite des identifiants, donc pour simplifier, les fichiers de données déjà téléchargés sont placés dans le dossier `data`.
+
+2. **Données de facteurs de capacité**  
+   - Récupérées automatiquement par le notebook via l’API d’OpenDataSoft  
+   - Chaque région française est couverte.
+
+## Packages nécessaires
+
+Le notebook `main.ipynb` importe et installe (si besoin) l’ensemble des dépendances Python requises, notamment :
+
+- `pandas`, `numpy`  
+- `scikit-learn`  
+- `matplotlib`, `seaborn`  
+- … etc.
+
+Il suffit de lancer `main.ipynb` pour exécuter toutes les analyses et visualisations.
+
+
